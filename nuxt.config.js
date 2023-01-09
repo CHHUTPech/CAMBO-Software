@@ -9,12 +9,11 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }],
   },
-  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/assets/Style.css"],
+  css: ['~/assets/Style.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -31,7 +30,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
